@@ -1,5 +1,5 @@
 import React from 'react';
-import ein2 from "../images/ein2.jpg";
+import ein2 from "../images/mayo.gif";
 
 class About extends React.Component {
   render() {
@@ -10,18 +10,18 @@ class About extends React.Component {
         marginLeft: "3%",
         marginTop: 25,
         backgroundImage: `url(${ein2})`,
-        border: "5px solid white",
+        // border: "1px solid white",
       },
       aboutContentStyle: {
         display: "flex",
         marginTop: "5%",
-        fontSize: 22,
+        fontSize: 18,
         maxWidth: "95%",
       },
       bStyle: {
         padding: 20,
         backgroundColor: "gray",
-        fontSize: 22,
+        fontSize: 18,
         fontFamily: "'Roboto Mono', monospace",
         border: "5px solid white",
         marginBottom: 150,

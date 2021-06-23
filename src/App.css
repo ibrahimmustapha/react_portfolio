@@ -46,7 +46,7 @@
   color: #bcb4b4;
   text-align: center;
   padding: 10px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -95,12 +95,13 @@ input[type=password], select, textarea {
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #1e1e1e;
-  color: #bcb4b4;
-  padding: 12px 20px;
+  color: black;
+  background-color: #bcb4b4;
+  padding: 10px;
   border: none;
-  border-radius: 4px;
+  border-radius: 7px;
   cursor: pointer;
-  width: 100%;
+  width: 120px;
   margin-bottom: 10%;
 }
 
@@ -111,7 +112,7 @@ input[type=submit] {
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 30%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -149,4 +150,49 @@ input[type=submit] {
   .p-img {
     width: 100%;
   }
+}
+
+.vertical-line {
+  border-left: 2px solid white;
+  height: 300px;
+  margin-left: 80px;
+  margin-top: 60px; 
+  margin-right: -250px;
+}
+
+.my-contact {
+  display: flex;
+}
+
+.c-address {
+  margin-left: 25%;
+  margin-top: 60px;
+}
+
+.c-address p {
+  padding: 15px;
+  background-color: #1e1e1e;
+  padding-left: 20px;
+  padding-right: 80px;
+}
+
+.c-address i {
+  padding-right: 10px;
+  padding: 15px;
+  background-color: #262626;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .vertical-line {
+    display: none;
+
+  }
+  .c-address {
+    display: none;
+  }
+  .content {
+    width: 90%;
+  }
+  
 }

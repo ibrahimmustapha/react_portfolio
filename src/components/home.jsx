@@ -1,5 +1,5 @@
 import React from "react";
-import ein from "../images/ein.jpg";
+import ein from "../images/ein.jpeg";
 
 
 class Home extends React.Component {
@@ -21,7 +21,7 @@ class Home extends React.Component {
       },
       imageStyle: {
         height: 500,
-        width: 800,
+        width: 850,
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",
@@ -49,7 +49,7 @@ class Home extends React.Component {
       },
       contentStyle: {
         position: "relative",
-        marginBottom: 300,
+        marginBottom: 100,
       },
     };
     return (
