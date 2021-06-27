@@ -1,5 +1,6 @@
 import React from "react";
-import ein from "../images/ein.jpeg";
+import ein from "../images/fly.gif";
+import Projects from "./projects";
 
 
 class Home extends React.Component {
@@ -26,7 +27,8 @@ class Home extends React.Component {
         marginLeft: "auto",
         marginRight: "auto",
         backgroundImage: `url(${ein})`,
-        border: "3px solid white",
+        backgroundRepeat: "no-repeat",
+        border: "1px solid white",
         color: "gray",
         maxWidth: "97%",
         maxHeight: "100%",
@@ -42,7 +44,7 @@ class Home extends React.Component {
         fontSize: 24,
       },
       buttonStyle: {
-        padding: 15,
+        padding: 5,
         fontSize: 24,
         backgroundColor: "#BCB4B4;",
         border: "5px solid white",
@@ -65,6 +67,8 @@ class Home extends React.Component {
             </p>
             <button style={homeStyle.buttonStyle}>see my works</button>
           </div>
+        </div>
+        <div>
         </div>
       </div>
     );

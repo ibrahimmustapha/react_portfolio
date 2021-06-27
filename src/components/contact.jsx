@@ -1,4 +1,5 @@
 import React from "react";
+import Map from './googlemaps';
 
 class Contact extends React.Component {
   render() {
@@ -40,6 +41,7 @@ class Contact extends React.Component {
             </form>
           </div>
         </div>
+        <Map />
       </div>
     );
   }

@@ -24,7 +24,7 @@ class About extends React.Component {
         fontSize: 18,
         fontFamily: "'Roboto Mono', monospace",
         border: "5px solid white",
-        marginBottom: 150,
+        marginBottom: 250,
       },
       eduStyle: {
         marginLeft: 350,
