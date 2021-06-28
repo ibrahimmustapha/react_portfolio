@@ -41,7 +41,6 @@ class Contact extends React.Component {
             </form>
           </div>
         </div>
-        <Map />
       </div>
     );
   }

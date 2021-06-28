@@ -21,8 +21,8 @@ class Home extends React.Component {
         position: "relative",
       },
       imageStyle: {
-        height: 500,
-        width: 850,
+        height: 600,
+        width: 900,
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",
@@ -36,11 +36,11 @@ class Home extends React.Component {
         fontSize: 18,
       },
       imageTextStyle: {
-        padding: 10,
+        padding: 30,
         textAlign: "center",
-        marginTop: 200,
+        marginTop: "40%",
         color: "white",
-        fontWeight: "bold",
+        fontWeight: "none",
         fontSize: 24,
       },
       buttonStyle: {
