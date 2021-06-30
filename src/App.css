@@ -133,16 +133,13 @@ input[type=submit] {
   display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: auto;
+  grid-column: 2 / 4;
   justify-content: center;
   margin-bottom: 15%;
   font-size: 15px;
   gap: 20px;
   cursor: pointer;
 }
-
-.grid-item {
-  padding: 10px;
-} 
 
 .p-img {
   width: 300px;
