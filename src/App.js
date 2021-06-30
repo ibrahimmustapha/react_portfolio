@@ -33,7 +33,7 @@ class Portfolio extends React.Component {
             </a>
           </li>
         </ul>
-        <div className="">{this.props.children}</div>
+        {/* <div className="">{this.props.children}</div> */}
         <div className="footer">
           <p>Copyright © 2021 Ibrahim Mustapha, Inc. All rights reserved</p>
         </div>

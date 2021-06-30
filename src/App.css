@@ -131,7 +131,7 @@ input[type=submit] {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 300px 300px 300px;
   grid-template-rows: auto;
   justify-content: center;
   margin-bottom: 15%;
@@ -145,8 +145,8 @@ input[type=submit] {
 } 
 
 .p-img {
-  width: 400px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
 }
 
 @media only screen and (max-width: 600px) {

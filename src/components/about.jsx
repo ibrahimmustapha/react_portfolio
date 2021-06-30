@@ -1,62 +1,13 @@
 import React from 'react';
-import ein2 from "../images/mayo.gif";
+import AboutCss from '../stylesheet/about.css';
+import ein2 from "../images/Huey.png";
 
 class About extends React.Component {
   render() {
-    let aboutStyle = {
-      imgStyle: {
-        width: "50%",
-        height: "50%",
-        marginLeft: "3%",
-        marginTop: 25,
-        backgroundImage: `url(${ein2})`,
-        // border: "1px solid white",
-      },
-      aboutContentStyle: {
-        display: "flex",
-        marginTop: "5%",
-        fontSize: 18,
-        maxWidth: "95%",
-      },
-      bStyle: {
-        padding: 20,
-        backgroundColor: "gray",
-        fontSize: 18,
-        fontFamily: "'Roboto Mono', monospace",
-        border: "5px solid white",
-        marginBottom: 250,
-      },
-      eduStyle: {
-        marginLeft: 350,
-        marginTop: 200,
-        fontSize: 20,
-      },
-      skillStyle: {
-        marginLeft: 350,
-        marginTop: 90,
-      },
-      uniStyle: {
-        marginLeft: 350,
-        marginTop: 90,
-      },
-      school: {
-        marginLeft: 15,
-        backgroundColor: "#161618",
-        padding: 10,
-        borderRadius: 7,
-      },
-      college: {
-        marginLeft: 15,
-        backgroundColor: "#161618",
-        padding: 10,
-        borderRadius: 7,
-        marginTop: 15,
-      },
-    };
     return (
       <div className="container">
-        <div style={aboutStyle.aboutContentStyle}>
-          <div style={aboutStyle.aboutTextStyle}>
+        <div className="about-developer-row">
+          <div className="about-developer-item">
             <p>Hi, I am Mustapha Ibrahim</p>
             <h1>A freelance Web developer</h1>
             <p>
@@ -77,14 +28,11 @@ class About extends React.Component {
               create more good stuff that helps the world to become a better
               place.
             </p>
-            <button style={aboutStyle.bStyle}>Download CV</button>
+            <button className="about-me-download-cv-button">Download CV</button>
           </div>
-          <img
-            src={ein2}
-            alt="linus-tovalds"
-            style={aboutStyle.imgStyle}
-            className="about-img"
-          />
+          <div className="about-developer-item2">
+            <img src={ein2} alt="linus-tovalds" className="about-image" />
+          </div>
         </div>
       </div>
     );

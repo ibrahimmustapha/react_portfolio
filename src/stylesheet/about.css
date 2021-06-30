@@ -1,0 +1,37 @@
+/* 
+ Created by Mustapha Ibrahim 
+ On 30-06-2021
+*/
+
+/* 
+ Portfolio Stylesheet 
+ About me
+*/
+
+.about-developer-row {
+    display: flex;
+}
+
+/* Image on the about page */
+.about-image {
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Download cv button */
+.about-me-download-cv-button {
+    padding: 15px;
+    background-color: gray;
+    border: 2px solid white;
+}
+
+/* Content fitting mobile screens */
+@media only screen and (max-width: 1000px) {
+    .about-image {
+        display: none;
+    }
+    .about-developer-row {
+        margin-bottom: 200px;
+    }
+}
