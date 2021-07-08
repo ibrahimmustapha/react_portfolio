@@ -9,3 +9,19 @@
     border: 3px solid white;
     background-color: #808080;
 }
+
+.fa {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.social-accounts ul {
+    list-style-type: none;
+    margin-left: -20px;
+    margin-top: -80px;
+}
+
+.social-accounts {    
+    color: white;
+    position: fixed;
+}
