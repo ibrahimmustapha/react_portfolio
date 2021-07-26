@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutCss from '../stylesheet/about.css';
 import ein2 from "../images/Huey.png";
+import Gallery from "./mini_components/gallery";
 
 class About extends React.Component {
   render() {

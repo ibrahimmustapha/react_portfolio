@@ -1,4 +1,5 @@
 import React from "react";
+import Testimonials from "../apis/testimonialdata.js";
 
 class Contact extends React.Component {
   render() {
@@ -40,6 +41,20 @@ class Contact extends React.Component {
             </form>
           </div>
         </div>
+
+        {/* Trying out json data  */}
+        {/* <div>
+          {Testimonials.map((data,key) => {
+            return (
+              <div key={key}>
+                <p>{data.id}</p>
+                <p>{data.name}</p>
+                <p>{data.message}</p>
+                <img src={data.image} alt="bart" />
+              </div>
+            );
+          })}
+        </div> */}
       </div>
     );
   }

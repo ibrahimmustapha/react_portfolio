@@ -1,3 +1,6 @@
+body, html {
+  width: 100%;
+}
 .App {
   text-align: center;
 }
@@ -131,9 +134,8 @@ input[type=submit] {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 320px);
   grid-template-rows: auto;
-  grid-column: 2 / 4;
   justify-content: center;
   margin-bottom: 15%;
   font-size: 18px;
@@ -142,7 +144,7 @@ input[type=submit] {
 }
 
 .p-img {
-  width: 400px;
+  width: 320px;
   height: 200px;
 }
 
