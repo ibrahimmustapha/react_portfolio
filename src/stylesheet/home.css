@@ -11,17 +11,79 @@
 }
 
 .fa {
-    font-size: 25px;
+    font-size: 22px;
     padding-top: 20px;
 }
+
 
 .social-accounts ul {
     list-style-type: none;
     margin-left: -20px;
-    margin-top: -80px;
+    margin-top: 80px;
 }
 
 .social-accounts {    
     color: white;
-    position: fixed;
+    position: relative;
+    background-color: #1e1e1e;
+    margin-right: 1860px;
+}
+
+.items {
+    text-align: center;
+}
+
+.what-i-do {
+    display: flex;
+    gap: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media only screen and (max-width: 700px) {
+    .what-i-do {
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.testimonials h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.testimonials {
+    margin-bottom: 300px;
+}
+
+.my-clients {
+    display: flex;
+    gap: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    max-width: 90%;
+}
+
+.fa-quote-left {
+    color: yellow;
+}
+
+.client p{
+    padding-left: 35px;
+}
+
+.client img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: right;
+}
+
+@media only screen and (max-width: 700px) {
+    .my-clients {
+        display: inline-block;
+        max-width: 95%;
+        margin: 20px;
+    }
 }

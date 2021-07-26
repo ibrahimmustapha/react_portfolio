@@ -9,15 +9,15 @@ class About extends React.Component {
         <div className="about-developer-row">
           <div className="about-developer-item">
             <p>Hi, I am Mustapha Ibrahim</p>
-            <h1>A freelance Web developer</h1>
+            <h1>A freelance Software developer</h1>
             <p>
-              I am from chittagong, Bangladesh. A place of beauty and nature.
-              Since my childhood, i love art and design. I always try to design
+              I am from Binbila, Northern Region Ghana. A place of beauty and nature.
+              I've being an enthusiast of art and designing. I always try to design
               stuff with my unique point of view. I also love to create things
               that can be usefull to others.
             </p>
             <p>
-              I started coding since I was in high school. Coding is also an art
+              I started coding when I was in high school. Coding is also an art
               for me. I love it and now I have the opportunity to design along
               with the coding. I find it really interesting and I enjoyed the
               process a lot.

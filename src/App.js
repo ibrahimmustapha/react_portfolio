@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Link, NavLink, BrowserRouter,} from "react-router-dom";
+import { BrowserRouter as Router, Route, BrowserRouter,} from "react-router-dom";
 import Home from './components/home';
 import Contact from "./components/contact";
 import About from "./components/about";
@@ -12,28 +12,13 @@ class Portfolio extends React.Component {
     return (
       <div id="myTopnav" className="topnav">
         <ul className="header">
-          <li>
-            <a exact href="/">
-              Home
-            </a>
-          </li>
-          <li>
-            <a exact href="/about">
-              About
-            </a>
-          </li>
-          <li>
-            <a exact href="/projects">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a exact href="/contact">
-              Contact
-            </a>
-          </li>
+          <li><a exact href="/">Hire@Ibrahim</a></li>
+          <li><a exact href="/">Home</a></li>
+          <li><a exact href="/about">About</a></li>
+          <li><a exact href="/projects">Projects</a></li>
+          <li><a exact href="/contact">Contact</a></li>
         </ul>
-        {/* <div className="">{this.props.children}</div> */}
+        <div className="">{this.props.children}</div>
         <div className="footer">
           <p>Copyright © 2021 Ibrahim Mustapha, Inc. All rights reserved</p>
         </div>
