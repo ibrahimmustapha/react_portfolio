@@ -19,14 +19,14 @@
 .social-accounts ul {
     list-style-type: none;
     margin-left: -20px;
-    margin-top: 80px;
+    margin-top: 25px;
 }
 
 .social-accounts {    
     color: white;
-    position: relative;
+    position: fixed;
     background-color: #1e1e1e;
-    margin-right: 1765px;
+    padding-right: 20px;
 }
 
 .items {
