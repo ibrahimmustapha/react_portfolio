@@ -12,7 +12,7 @@ class Portfolio extends React.Component {
     return (
       <div id="myTopnav" className="topnav">
         <ul className="header">
-          <li><a exact href="/">Hire@Ibrahim</a></li>
+          <li><a exact href="/" className="active"><i class="fa fa-cubes" aria-hidden="true" style={{color: 'white'}}></i> codewithibrahim</a></li>
           <li><a exact href="/">Home</a></li>
           <li><a exact href="/about">About</a></li>
           <li><a exact href="/projects">Projects</a></li>
