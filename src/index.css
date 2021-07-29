@@ -44,6 +44,16 @@ ul.header li a:hover {
   padding-right: 20px;
 }
 
+.header .icon {
+  display: none;
+}
+
+.header {
+  display: flex;
+
+  justify-content: center;
+}
+
 .header .active:hover {
   border-bottom: 0px;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #423d6d, 0 0 40px #4b4788, 0 0 50px #b1922e, 0 0 60px #ba9ed1, 0 0 70px #b0b9e0;
@@ -53,5 +63,27 @@ ul.header li a:hover {
 @media screen and (max-width: 650px) {
   .row {
     display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header .active{
+    /* margin-left: -140px; */
+    padding-right: 150px;
+  }
+  .nav-items {
+    display: none;
+  }
+.header .icon {
+    display: block;
+    float: right;
+}
+.header .icon:hover {
+  border-bottom: 0px;
+}
+.topnav.responsive a {
+  float: lrft; 
+  display: block;
+  text-align: left;
   }
 }

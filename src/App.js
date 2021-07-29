@@ -6,19 +6,13 @@ import Home from './components/home';
 import Contact from "./components/contact";
 import About from "./components/about";
 import Projects from "./components/projects";
+import Footer from '../src/components/mini_components/footer.js';
 
 class Portfolio extends React.Component {
   render() {
     return (
-      <div id="myTopnav" className="topnav">
-        <ul className="header">
-          <li><a exact href="/" className="active"><i class="fa fa-cubes" aria-hidden="true" style={{color: 'white'}}></i> codewithibrahim</a></li>
-          <li><a exact href="/"><i class="fa fa-home" aria-hidden="true" style={{color: 'white'}}></i> Home</a></li>
-          <li><a exact href="/about"><i class="fa fa-info" aria-hidden="true" style={{color: 'white'}}></i> About</a></li>
-          <li><a exact href="/projects"><i class="fa fa-building-o" aria-hidden="true" style={{color: 'white'}}></i> Projects</a></li>
-          <li><a exact href="#"><i class="fa fa-bookmark-o" aria-hidden="true" style={{color: 'white'}}></i> Blog</a></li>
-          <li><a exact href="/contact"><i class="fa fa-map-marker"aria-hidden="true" style={{color: 'white'}}></i> Contact</a></li>
-        </ul>
+      <div>
+        <Footer />
         <div className="">{this.props.children}</div>
         <div className="footer">
           <p>Copyright © 2021 Ibrahim Mustapha, Inc. All rights reserved</p>
