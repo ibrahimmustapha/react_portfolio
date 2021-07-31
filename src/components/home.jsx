@@ -44,8 +44,6 @@ class Home extends React.Component {
           </ul>
         </div>
 
-        <Gallery />
-
         <div className="testimonials">
           <h1>|| Testimonials ||</h1>
           <div className="my-clients">
@@ -53,7 +51,6 @@ class Home extends React.Component {
               <i
                 class="fa fa-quote-left"
                 aria-hidden="true"
-                style={{ fontSize: 30 }}
               ></i>
               <p>
                 Fantastic, must for people who are serious about practical
@@ -70,7 +67,6 @@ class Home extends React.Component {
               <i
                 class="fa fa-quote-left"
                 aria-hidden="true"
-                style={{ fontSize: 30 }}
               ></i>
               <p>
                 Fantastic, must for people who are serious about practical
@@ -87,7 +83,6 @@ class Home extends React.Component {
               <i
                 class="fa fa-quote-left"
                 aria-hidden="true"
-                style={{ fontSize: 30 }}
               ></i>
               <p>
                 Fantastic, must for people who are serious about practical

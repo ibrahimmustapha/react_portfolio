@@ -60,9 +60,13 @@ ul.header li a:hover {
   color: #fff;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .row {
     display: block;
+  }
+    .header .active{
+    /* margin-left: -140px; */
+    padding-right: 100px;
   }
 }
 
