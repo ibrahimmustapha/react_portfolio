@@ -8,7 +8,7 @@ const Footer = () => {
           <li><a exact href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/projects">Projects</a></li>
-          <li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true" style={{color: 'white'}}></i> Blog</a></li>
+          <li><a href="#"> Blog</a></li>
           <li><a href="/contact">Contact</a></li>
           </div>
         </ul>

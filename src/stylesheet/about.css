@@ -14,10 +14,11 @@
 
 /* Image on the about page */
 .about-image {
-    width: 550px;
+    width: 300px;
     /* margin-left: 100px; */
-    margin-right: 50px;
-    margin-top: -30px;
+    margin-right: 100px;
+    margin-left: 110px;
+    margin-top: 80px;
 }
 
 /* Download cv button */
@@ -32,6 +33,7 @@
     .about-image {
         display: none;
     }
+    
     .about-developer-row {
         margin-bottom: 200px;
     }
