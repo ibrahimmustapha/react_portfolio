@@ -1,7 +1,7 @@
 import React from "react";
 import HomeCss from "../stylesheet/home.css";
 import Contact from "./contact";
-import Gallery from "../components/mini_components/gallery.js";
+import Services from "../components/mini_components/services.js";
 import bart from "../images/bart.jpg";
 import tintin from "../images/tintin.jpg";
 import hommer from "../images/hommer.jpeg";
@@ -43,6 +43,8 @@ class Home extends React.Component {
             </li>
           </ul>
         </div>
+
+        <Services />
 
         <div className="testimonials">
           <h1>|| Testimonials ||</h1>

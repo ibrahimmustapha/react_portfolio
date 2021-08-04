@@ -6,13 +6,13 @@ import Home from './components/home';
 import Contact from "./components/contact";
 import About from "./components/about";
 import Projects from "./components/projects";
-import Footer from '../src/components/mini_components/footer.js';
+import Navigation from './components/mini_components/navigation.js';
 
 class Portfolio extends React.Component {
   render() {
     return (
       <div>
-        <Footer />
+        <Navigation />
         <div className="">{this.props.children}</div>
         <div className="footer">
           <p>Copyright © 2021 Ibrahim Mustapha, Inc. All rights reserved</p>
@@ -21,9 +21,6 @@ class Portfolio extends React.Component {
     );
   }
 }
-
-
-
 
 ReactDOM.render(
   <BrowserRouter>

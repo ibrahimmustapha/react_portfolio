@@ -14,9 +14,10 @@
 
 /* Image on the about page */
 .about-image {
-    width: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 550px;
+    /* margin-left: 100px; */
+    margin-right: 50px;
+    margin-top: -30px;
 }
 
 /* Download cv button */

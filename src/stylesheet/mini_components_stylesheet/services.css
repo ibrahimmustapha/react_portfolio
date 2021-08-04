@@ -1,0 +1,44 @@
+
+.service-wrapper {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.service-wrapper h1 {
+    /* font-weight: bolder; */
+    /* font-size: 45px; */
+}
+
+.services {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+}
+
+.services .fa {
+    font-size: 32px;
+}
+
+.services h3 {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 740px) {
+    .services {
+        display: inline-block;
+        margin: 10px;
+    }
+    .service-wrapper {
+        margin-left: 0%;
+        margin-right: 0%;
+        max-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .service-wrapper {
+        margin: 10px;
+    }
+}

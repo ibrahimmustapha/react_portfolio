@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutCss from '../stylesheet/about.css';
-import ein2 from "../images/Huey.png";
+import ein2 from "../images/v3.png";
 import Gallery from "./mini_components/gallery";
 
 class About extends React.Component {
@@ -32,7 +32,7 @@ class About extends React.Component {
             <button className="about-me-download-cv-button">Download CV</button>
           </div>
           <div className="about-developer-item2">
-            <img src={ein2} alt="linus-tovalds" className="about-image" />
+            <img src={ein2} alt="linus-tovalds" className="about-image"/>
           </div>
         </div>
       </div>
