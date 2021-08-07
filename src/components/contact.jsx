@@ -12,7 +12,7 @@ class Contact extends React.Component {
               <i class="fa fa-phone"></i> +233 (0)547812542
             </p>
             <p>
-              <i class="fa fa-envelope-open"></i> africandev@gmail.com
+              <i class="fa fa-envelope-open"></i> codewbrahim@gmail.com
             </p>
             <p>
               <i class="fa fa-location-arrow"></i> OKai-koi north, Accra

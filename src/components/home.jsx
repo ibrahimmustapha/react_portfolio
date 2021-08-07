@@ -47,7 +47,7 @@ class Home extends React.Component {
         <Services />
 
         <div className="testimonials">
-          <h1>|| Testimonials ||</h1>
+          <h1>TESTIMONIALS</h1>
           <div className="my-clients">
             <div className="client">
               <i

@@ -4,7 +4,7 @@ const Services = () => {
       <div>
         <div className="service-wrapper">
           <p>What I can offer</p>
-          <h1>|| SERVICES ||</h1>
+          <h1>SERVICES</h1>
           <div className="services">
             <div>
               <i class="fa fa-laptop"></i>
